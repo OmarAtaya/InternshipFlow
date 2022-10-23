@@ -1,5 +1,6 @@
 import './App.css';
 import Graph from './Components/graph';
+import Internships from './Components/internships';
 import Sidebar from './Components/sideBar';
 import Image from './Images/add-square.png';
 
@@ -15,6 +16,7 @@ export default function App() {
           </button>
         </div>
         <Graph/>
+        <Internships/>
       </div>
       <Sidebar/>
       

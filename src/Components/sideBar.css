@@ -48,7 +48,7 @@
     border-radius: 16px;
 }
 
-.Sidebar-dashboard > p{
+p{
     width: 86px;
     height: 24px;
 
@@ -87,27 +87,6 @@
     border-radius: 16px;
 }
 
-.Sidebar-apprenterships > p{
-    width: 86px;
-    height: 24px;
-
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.3px;
-    font-feature-settings: 'liga' off;
-
-    /* Dark */
-
-    color: #1E1E1E;
-}
-
 .Sidebar-internships{
     box-sizing: border-box;
 
@@ -129,27 +108,6 @@
     border-radius: 16px;
 }
 
-.Sidebar-internships > p{
-    width: 90px;
-    height: 24px;
-
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.3px;
-    font-feature-settings: 'liga' off;
-
-    /* Purple */
-
-    color: #793EF5;
-}
-
 .Sidebar-jobs{
     display: flex;
     flex-direction: row;
@@ -163,27 +121,6 @@
     border-radius: 16px;
 }
 
-.Sidebar-jobs > p{
-    width: 86px;
-    height: 24px;
-
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.3px;
-    font-feature-settings: 'liga' off;
-
-    /* Dark */
-
-    color: #1E1E1E;
-}
-
 .Sidebar-settings{
     display: flex;
     flex-direction: row;
@@ -195,27 +132,6 @@
     height: 48px;
 
     border-radius: 16px;
-}
-
-.Sidebar-settings > p{
-    width: 86px;
-    height: 24px;
-
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.3px;
-    font-feature-settings: 'liga' off;
-
-    /* Dark */
-
-    color: #1E1E1E;
 }
 
 .Sidebar-account{

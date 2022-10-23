@@ -1,0 +1,195 @@
+.Graph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+
+    width: 1135px;
+    height: 270px;
+
+    /* Snow */
+
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.Graph-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+
+    width: 280px;
+    height: 238px;
+
+    /* Grey Light */
+
+    background: #F6F5F9;
+    border-radius: 16px;
+}
+
+.Graph-text > h2{
+    width: 248px;
+    height: 24px;
+
+    /* Desktop/H5 */
+
+    font-family: 'Eloquia Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.Graph-text > p{
+    width: 229px;
+    height: 120px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    letter-spacing: 0.3px;
+    font-feature-settings: 'liga' off;
+
+    /* Dark */
+
+    color: #1E1E1E;
+}
+
+.Graph-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 813px;
+    height: 238px;
+
+}
+
+.Table{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 10px;
+
+    width: 813px;
+    height: 48px;
+
+    /* Gray 6 */
+
+    background: #F2F2F2;
+    border-radius: 12px;
+}
+
+.Table-options{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 797px;
+    height: 32px;
+}
+
+.Options-week{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 12px;
+    gap: 8px;
+
+    width: 91px;
+    height: 32px;
+
+    /* Purple */
+
+    background: #793EF5;
+    border-radius: 8px;
+    border-width: 0px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* Snow */
+
+    color: #FFFFFF;
+}
+
+.Options-month{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 12px;
+    gap: 8px;
+
+    width: 100px;
+    height: 32px;
+
+    /* Snow */
+
+    background: #FFFFFF;
+    border-radius: 8px;
+    border-width: 0px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* Dark */
+
+    color: #1E1E1E;
+}
+
+.Options-select{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+    margin-left: auto;
+
+    width: 137px;
+    height: 32px;
+
+    /* Snow */
+
+    background: #FFFFFF;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+.Table-image{
+    width: 789px;
+    height: 174px;
+}

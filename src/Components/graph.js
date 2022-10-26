@@ -15,7 +15,7 @@ export default function Graph() {
                 <button className="Options-week">This week</button>
                 <button className="Options-month">This month</button>
                 <button className="Options-select">
-                    <img src={Dates} className="" alt=""/>
+                    <img src={Dates} className="Select-cal" alt=""/>
                     Select dates
                 </button>
             </div>

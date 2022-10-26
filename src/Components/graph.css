@@ -109,6 +109,11 @@
     height: 32px;
 }
 
+.Select-cal{
+    width: 20px;
+    height: 20px;
+}
+
 .Options-week{
     display: flex;
     flex-direction: row;

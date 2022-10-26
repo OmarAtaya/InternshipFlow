@@ -1,6 +1,9 @@
 table{
-    width: 1135px;
+    width: 1165px;
     height: 536px;
+    background-color: white;
+    border-spacing: 0px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 h2{
@@ -22,9 +25,93 @@ h2{
     color: #2F3031;
 }
 
-.Table-title{
-    display: flex;
-    flex-direction: row;
+h3{
+    width: 195px;
+    height: 24px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Text/Text - 01 */
+
+    color: #2F3031;
+}
+
+.Title-text{
+    width: 195px;
+    height: 32px;
+    margin-top: 0px;
+    margin-left: 12px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 11px;
+    line-height: 16px;
+    /* or 133% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Text/Text - 01 */
+
+    color: #2F3031;
+}
+
+.Period-text{
+    width: 137px;
+    height: 16px;
+    margin-top: 0px;
+    margin-left: 12px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    font-feature-settings: 'liga' off;
+}
+
+.Enrolled{
+    padding: 8px 16px;
+    gap: 8px;
+
+    width: 94px;
+    height: 40px;
+
+    background: #F0EFFD;
+    border-radius: 8px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+
+    /* Purple */
+
+    color: #793EF5;
+}
+
+.header{
+    background: #F6F5F9;
+}
+
+#Table-title{
     justify-content: space-between;
     align-items: center;
     padding: 16px 12px;
@@ -33,13 +120,10 @@ h2{
     width: 385px;
     height: 56px;
 
-    background: #F6F5F9;
     border-radius: 20px 0px 0px 0px;
 }
 
-.Table-period{
-    display: flex;
-    flex-direction: row;
+#Table-period{
     justify-content: space-between;
     align-items: center;
     padding: 16px 12px;
@@ -47,13 +131,9 @@ h2{
 
     width: 200px;
     height: 56px;
-
-    background: #F6F5F9;
 }
 
-.Table-enrolled{
-    display: flex;
-    flex-direction: row;
+#Table-enrolled{
     justify-content: space-between;
     align-items: center;
     padding: 16px 12px;
@@ -61,13 +141,9 @@ h2{
 
     width: 160px;
     height: 56px;
-
-    background: #F6F5F9;
 }
 
-.Table-qualified{
-    display: flex;
-    flex-direction: row;
+#Table-qualified{
     justify-content: space-between;
     align-items: center;
     padding: 16px 12px;
@@ -75,6 +151,28 @@ h2{
 
     width: 250px;
     height: 56px;
+}
 
-    background: #F6F5F9;
+.Filter-button{
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+}
+
+.Qualified-graph{
+    width: 190px;
+    height: 60px;
+}
+
+.Icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Table-icon{
+    width: 28px;
+    height: 28px;
+    padding-top: 20px;
+    padding-right: 10px;
 }

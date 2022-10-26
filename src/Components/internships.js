@@ -1,62 +1,139 @@
 import './internships.css';
+import Graph from "../Images/Qualified Candidates.png"
+import Profile from "../Images/profile-2user.png"
+import Chart from "../Images/chart.png"
+import More from "../Images/more-2.png"
+import Filter from "../Images/arrow-square-down.png"
 
 export default function Internships() {
   return (
     <div className="Internships">
       <table>
-        <tr>
-            <th className="Table-title">
+        <tr className="header">
+            <th id="Table-title">
                 <h2>Internship title</h2>
-                <img src="" className="Title-button" alt=""/>
+                <img src={Filter} className="Filter-button" alt=""/>
             </th>
-            <th className="Table-period">
+            <th id="Table-period">
                 <h2>Completion Period</h2>
-                <img src="" className="Period-button" alt=""/>
+                <img src={Filter} className="Filter-button" alt=""/>
             </th>
-            <th className="Table-enrolled">
+            <th id="Table-enrolled">
                 <h2>Total Enrolled</h2>
-                <img src="" className="Enrolled-button" alt=""/>
+                <img src={Filter} className="Filter-button" alt=""/>
             </th>
-            <th className="Table-qualified">
+            <th id="Table-qualified">
                 <h2>Qualified Candidates</h2>
-                <img src="" className="Qualified-button" alt=""/>
+                <img src={Filter} className="Filter-button" alt=""/>
             </th>
             <th>
 
             </th>
         </tr>
         <tr>
-            <th>
+            <td>
                 <h3>Product Design GVI</h3>
-                <p>Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</p>
-            </th>
-            <th>
+                <p className="Title-text">Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</p>
+            </td>
+            <td>
                 <h3>120 days</h3>
-                <p>(created on 10/12/2021)</p>
-            </th>
-            <th>
-                <div>20,000</div>
-            </th>
-            <th>
-                <img src="" className="Qualified-graph" alt=""/>
-            </th>
-            <th>
-            <img src="" className="Table-chart" alt=""/>
-            <img src="" className="Table-profile" alt=""/>
-            <img src="" className="Table-more" alt=""/>
-            </th>
+                <p className="Period-text">(created on 10/12/2021)</p>
+            </td>
+            <td>
+                <div className="Enrolled">20,000</div>
+            </td>
+            <td>
+                <img src={Graph} className="Qualified-graph" alt=""/>
+            </td>
+            <td className="Icons">
+                <img src={Chart} className="Table-icon" alt=""/>
+                <img src={Profile} className="Table-icon" alt=""/>
+                <img src={More} className="Table-icon" alt=""/>
+            </td>
         </tr>
         <tr>
-
+            <td>
+                <h3>Product Design GVI</h3>
+                <p className="Title-text">Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</p>
+            </td>
+            <td>
+                <h3>120 days</h3>
+                <p className="Period-text">(created on 10/12/2021)</p>
+            </td>
+            <td>
+                <div className="Enrolled">20,000</div>
+            </td>
+            <td>
+                <img src={Graph} className="Qualified-graph" alt=""/>
+            </td>
+            <td className="Icons">
+            <img src={Chart} className="Table-icon" alt=""/>
+                <img src={Profile} className="Table-icon" alt=""/>
+                <img src={More} className="Table-icon" alt=""/>
+            </td>
         </tr>
         <tr>
-
+            <td>
+                <h3>Product Design GVI</h3>
+                <p className="Title-text">Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</p>
+            </td>
+            <td>
+                <h3>120 days</h3>
+                <p className="Period-text">(created on 10/12/2021)</p>
+            </td>
+            <td>
+                <div className="Enrolled">20,000</div>
+            </td>
+            <td>
+                <img src={Graph} className="Qualified-graph" alt=""/>
+            </td>
+            <td className="Icons">
+            <img src={Chart} className="Table-icon" alt=""/>
+                <img src={Profile} className="Table-icon" alt=""/>
+                <img src={More} className="Table-icon" alt=""/>
+            </td>
         </tr>
         <tr>
-
+            <td>
+                <h3>Product Design GVI</h3>
+                <p className="Title-text">Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</p>
+            </td>
+            <td>
+                <h3>120 days</h3>
+                <p className="Period-text">(created on 10/12/2021)</p>
+            </td>
+            <td>
+                <div className="Enrolled">20,000</div>
+            </td>
+            <td>
+                <img src={Graph} className="Qualified-graph" alt=""/>
+            </td>
+            <td className="Icons">
+            <img src={Chart} className="Table-icon" alt=""/>
+                <img src={Profile} className="Table-icon" alt=""/>
+                <img src={More} className="Table-icon" alt=""/>
+            </td>
         </tr>
         <tr>
-
+            <td>
+                <h3>Product Design GVI</h3>
+                <p className="Title-text">Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</p>
+            </td>
+            <td>
+                <h3>120 days</h3>
+                <p className="Period-text">(created on 10/12/2021)</p>
+            </td>
+            <td>
+                <div className="Enrolled">20,000</div>
+            </td>
+            <td>
+                <img src={Graph} className="Qualified-graph" alt=""/>
+            </td>
+            <td className="Icons">
+                <img src={Chart} className="Table-icon" alt=""/>
+                <img src={Profile} className="Table-icon" alt=""/>
+                <img src={More} className="Table-icon" alt=""/>
+            </td>
         </tr>
       </table>
     </div>

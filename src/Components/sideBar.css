@@ -15,6 +15,9 @@
     background: #FFFFFF;
     box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.04);
     border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .Sidebar-menu{
@@ -26,6 +29,10 @@
 
     width: 189px;
     height: 370px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .Sidebar-logo{
@@ -33,6 +40,10 @@
     height: 32px;
     align-self: center;
     padding-bottom: 25px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .Sidebar-dashboard{
@@ -46,6 +57,10 @@
     height: 48px;
 
     border-radius: 16px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 p{
@@ -67,11 +82,17 @@ p{
     /* Dark */
 
     color: #1E1E1E;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .Sidebar-icon{
     width: 24px;
     height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .Sidebar-apprenterships{
@@ -85,6 +106,9 @@ p{
     height: 48px;
 
     border-radius: 16px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .Sidebar-internships{
@@ -106,6 +130,10 @@ p{
 
     border: 1px solid #793EF5;
     border-radius: 16px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .Sidebar-jobs{
@@ -119,6 +147,10 @@ p{
     height: 48px;
 
     border-radius: 16px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .Sidebar-settings{
@@ -132,6 +164,10 @@ p{
     height: 48px;
 
     border-radius: 16px;
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .Sidebar-account{
@@ -143,6 +179,9 @@ p{
 
     width: 152px;
     height: 50px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .Sidebar-account > p{
@@ -162,9 +201,15 @@ p{
     font-feature-settings: 'liga' off;
 
     color: #1E1E1E;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .Account-profile{
     width: 50px;
     height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }

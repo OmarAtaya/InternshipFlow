@@ -7,8 +7,8 @@
     gap: 34px;
 
     position: absolute;
-    width: 190px;
-    height: 950px;
+    width: 175px;
+    height: 620px;
     left: 16px;
     top: 16px;
 
@@ -25,7 +25,6 @@
     flex-direction: column;
     align-content: center;
     padding: 0px;
-    gap: 10px;
 
     width: 189px;
     height: 370px;
@@ -36,8 +35,8 @@
 }
 
 .Sidebar-logo{
-    width: 160px;
-    height: 32px;
+    width: 120px;
+    height: 24px;
     align-self: center;
     padding-bottom: 25px;
 
@@ -70,7 +69,7 @@ p{
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     /* identical to box height, or 150% */
 
@@ -88,8 +87,8 @@ p{
 }
 
 .Sidebar-icon{
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -122,7 +121,7 @@ p{
     padding: 12px 16px;
     gap: 10px;
 
-    width: 189px;
+    width: 170px;
     height: 48px;
 
     background: rgba(102, 95, 239, 0.2);
@@ -191,7 +190,7 @@ p{
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     /* identical to box height, or 150% */
 
@@ -207,8 +206,8 @@ p{
 }
 
 .Account-profile{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     flex: none;
     order: 0;
     flex-grow: 0;

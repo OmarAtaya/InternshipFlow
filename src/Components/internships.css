@@ -1,21 +1,16 @@
 table{
-    width: 1165px;
-    height: 536px;
+    width: 1135px;
+    height: 300px;
     background-color: white;
     border-spacing: 0px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
 }
 
-h2{
-    width: 102px;
-    height: 24px;
-
+th{
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    white-space: nowrap;
+    font-size: 12px;
     /* identical to box height, or 171% */
 
     font-feature-settings: 'liga' off;
@@ -86,7 +81,7 @@ h3{
     gap: 8px;
 
     width: 94px;
-    height: 40px;
+    height: 25px;
 
     background: #F0EFFD;
     border-radius: 8px;
@@ -112,51 +107,42 @@ h3{
 }
 
 #Table-title{
-    justify-content: space-between;
-    align-items: center;
     padding: 16px 12px;
     gap: 56px;
 
     width: 385px;
-    height: 56px;
 
     border-radius: 20px 0px 0px 0px;
 }
 
 #Table-period{
-    justify-content: space-between;
-    align-items: center;
     padding: 16px 12px;
     gap: 56px;
 
     width: 200px;
-    height: 56px;
+    height: 36px;
 }
 
 #Table-enrolled{
-    justify-content: space-between;
-    align-items: center;
     padding: 16px 12px;
     gap: 56px;
 
     width: 160px;
-    height: 56px;
+    height: 36px;
 }
 
 #Table-qualified{
-    justify-content: space-between;
-    align-items: center;
     padding: 16px 12px;
     gap: 56px;
 
     width: 250px;
-    height: 56px;
+    height: 36px;
 }
 
 .Filter-button{
     width: 20px;
     height: 20px;
-    margin-left: 60px;
+    margin-left: 30%;
 }
 
 .Qualified-graph{

@@ -11,19 +11,19 @@ export default function Internships() {
       <table>
         <tr className="header">
             <th id="Table-title">
-                <h2>Internship title</h2>
+                Internship title
                 <img src={Filter} className="Filter-button" alt=""/>
             </th>
             <th id="Table-period">
-                <h2>Completion Period</h2>
+                Completion Period
                 <img src={Filter} className="Filter-button" alt=""/>
             </th>
             <th id="Table-enrolled">
-                <h2>Total Enrolled</h2>
+                Total Enrolled
                 <img src={Filter} className="Filter-button" alt=""/>
             </th>
             <th id="Table-qualified">
-                <h2>Qualified Candidates</h2>
+                Qualified Candidates
                 <img src={Filter} className="Filter-button" alt=""/>
             </th>
             <th>
@@ -33,7 +33,7 @@ export default function Internships() {
         <tr>
             <td>
                 <h3>Product Design GVI</h3>
-                <p className="Title-text">Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</p>
+                <p className="Title-text">Amet minim mollit non deserunt</p>
             </td>
             <td>
                 <h3>120 days</h3>
@@ -54,7 +54,7 @@ export default function Internships() {
         <tr>
             <td>
                 <h3>Product Design GVI</h3>
-                <p className="Title-text">Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</p>
+                <p className="Title-text">Amet minim mollit non deserunt</p>
             </td>
             <td>
                 <h3>120 days</h3>
@@ -75,7 +75,7 @@ export default function Internships() {
         <tr>
             <td>
                 <h3>Product Design GVI</h3>
-                <p className="Title-text">Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</p>
+                <p className="Title-text">Amet minim mollit non deserunt</p>
             </td>
             <td>
                 <h3>120 days</h3>
@@ -89,48 +89,6 @@ export default function Internships() {
             </td>
             <td className="Icons">
             <img src={Chart} className="Table-icon" alt=""/>
-                <img src={Profile} className="Table-icon" alt=""/>
-                <img src={More} className="Table-icon" alt=""/>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h3>Product Design GVI</h3>
-                <p className="Title-text">Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</p>
-            </td>
-            <td>
-                <h3>120 days</h3>
-                <p className="Period-text">(created on 10/12/2021)</p>
-            </td>
-            <td>
-                <div className="Enrolled">20,000</div>
-            </td>
-            <td>
-                <img src={Graph} className="Qualified-graph" alt=""/>
-            </td>
-            <td className="Icons">
-            <img src={Chart} className="Table-icon" alt=""/>
-                <img src={Profile} className="Table-icon" alt=""/>
-                <img src={More} className="Table-icon" alt=""/>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h3>Product Design GVI</h3>
-                <p className="Title-text">Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</p>
-            </td>
-            <td>
-                <h3>120 days</h3>
-                <p className="Period-text">(created on 10/12/2021)</p>
-            </td>
-            <td>
-                <div className="Enrolled">20,000</div>
-            </td>
-            <td>
-                <img src={Graph} className="Qualified-graph" alt=""/>
-            </td>
-            <td className="Icons">
-                <img src={Chart} className="Table-icon" alt=""/>
                 <img src={Profile} className="Table-icon" alt=""/>
                 <img src={More} className="Table-icon" alt=""/>
             </td>

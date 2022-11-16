@@ -1,0 +1,91 @@
+.Home{
+    height: 100%;
+}
+
+.Home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+  
+    position: absolute;
+    width: 1135px;
+    height: 906px;
+    left: 270px;
+    top: 30px;
+  }
+  
+.Home-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 626px;
+  
+    width: 1135px;
+    height: 44px;
+}
+  
+.title{
+    width: 178px;
+    height: 24px;
+  
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 75% */
+  
+    align-items: center;
+    letter-spacing: 0.3px;
+    font-feature-settings: 'liga' off;
+  
+    color: #1E1E1E;
+}
+  
+.Home-button{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 12px 16px;
+    gap: 8px;
+  
+    width: 200px;
+    height: 40px;
+  
+    /* Purple */
+  
+    background: #793EF5;
+    border-radius: 12px;
+    border-width: 0px;
+}
+  
+.Home-button > p{
+    width: 157px;
+    height: 20px;
+  
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+  
+    align-self: center;
+    letter-spacing: 0.4px;
+    font-feature-settings: 'liga' off;
+  
+    color: #FFFFFF;
+}
+  
+.Button-image{
+    width: 18px;
+    height: 18px;
+}
+
+.Link{
+    text-decoration: none;
+}

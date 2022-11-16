@@ -1,6 +1,6 @@
 import './graph.css';
-import Dates from '../Images/calendar-2.png'
-import Table from '../Images/Funnel.png'
+import Dates from '../../../../Images/calendar-2.png'
+import Table from '../../../../Images/Funnel.png'
 
 export default function Graph() {
   return (

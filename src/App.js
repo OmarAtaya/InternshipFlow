@@ -1,25 +1,15 @@
 import './App.css';
-import Graph from './Components/graph';
-import Internships from './Components/internships';
-import Sidebar from './Components/sideBar';
-import Image from './Images/add-square.png';
+import Home from './Components/Pages/Home/Home.js';
+import NewIntership from './Components/Pages/NewInternship/NewInternship.js';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 export default function App() {
   return (
-    <div className="App">
-      <div className="App-content">
-        <div className="App-title">
-          <h1 className="title">Internships</h1>
-          <button className="App-button">
-            <img src={Image} className="Button-image" alt=""/>
-            <p>Create New Internship</p>
-          </button>
-        </div>
-        <Graph/>
-        <Internships/>
-      </div>
-      <Sidebar/>
-      
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />}/>
+        <Route path="/newinternship" element={<NewIntership/>}/>
+      </Routes>
+    </Router>
   );
 }

@@ -1,11 +1,11 @@
 import './sideBar.css';
-import radicalx from '../Images/RadicallX-Black-Logo 1.png'
-import dashboard from '../Images/dashboard-3.png'
-import apprentership from '../Images/medal-star.png'
-import internship from '../Images/book.png'
-import job from '../Images/briefcase.png'
-import setting from '../Images/setting-2.png'
-import account from '../Images/Rectangle 18895.png'
+import radicalx from '../../../../Images/RadicallX-Black-Logo 1.png'
+import dashboard from '../../../../Images/dashboard-3.png'
+import apprentership from '../../../../Images/medal-star.png'
+import internship from '../../../../Images/book.png'
+import job from '../../../../Images/briefcase.png'
+import setting from '../../../../Images/setting-2.png'
+import account from '../../../../Images/Rectangle 18895.png'
 
 export default function Sidebar() {
   return (

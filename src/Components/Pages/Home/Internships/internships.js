@@ -1,9 +1,9 @@
 import './internships.css';
-import Graph from "../Images/Qualified Candidates.png"
-import Profile from "../Images/profile-2user.png"
-import Chart from "../Images/chart.png"
-import More from "../Images/more-2.png"
-import Filter from "../Images/arrow-square-down.png"
+import Graph from "../../../../Images/Qualified Candidates.png"
+import Profile from "../../../../Images/profile-2user.png"
+import Chart from "../../../../Images/chart.png"
+import More from "../../../../Images/more-2.png"
+import Filter from "../../../../Images/arrow-square-down.png"
 
 export default function Internships() {
   return (

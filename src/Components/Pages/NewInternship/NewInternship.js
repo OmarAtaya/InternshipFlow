@@ -6,6 +6,8 @@ import UntickGrey from '../../../Images/untick-circle-grey.png';
 import Menu from '../../../Images/menu.png';
 import Tick from '../../../Images/tick-circle.png';
 import Add from '../../../Images/add-square-purple.png';
+import Inactive from '../../../Images/arrow-right-grey.png'
+import Active from '../../../Images/arrow-right.png'
 import Category from './Category/Category';
 import Description from './Description/Description';
 import Location from './Location/Location';
@@ -72,8 +74,11 @@ export default function NewInternship() {
                     <div className="Option" key={index}>
                         <img src={Menu} className="OptionIcon" alt=""/>
                         <button className={option.isActive ? "OptionActive" : "OptionButtons"} onClick={() => {changeOption(option)}}>
-                            {option.title}
-                            {option.isDone ? <img src={Tick} className="OptionIcon" alt=""/> : ""}
+                            <div className="ButtonContent">
+                                {option.title}
+                                {option.isDone ? <img src={Tick} className="OptionIcon" alt=""/> : ""}
+                            </div>
+                            {option.isActive ? <img src={Active} className="OptionIcon" alt=""/> : <img src={Inactive} className="OptionIcon" alt=""/>}
                         </button>
                     </div>
                 ))}
@@ -82,7 +87,7 @@ export default function NewInternship() {
                     Add More
                 </button>
             </div>
-            <div>
+            <div className="CurrentOption">
                 {currOption}
             </div>
         </div>
